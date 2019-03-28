@@ -2,18 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c17d6627-6d10-4139-9f00-655692b19dd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../_mac/keymap.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../_mac/laf.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../_mac/path.macros.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baseRefactoring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code.style.schemes.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../codestyles/Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../colors.scheme.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../debugger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../editor.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../filetypes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../github.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project.default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ide.general.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sandbox.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/java_courses.sandbox.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/sandbox.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/sandbox.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ru/stda/pfd/sandbox/java/MyFirstProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/sandbox.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/sandbox.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/sandbox.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/sandbox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/sandbox.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ru/stda/pfd/sandbox/MyFirstProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyFirstProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru.stda.pfd.sandbox/MyFirstProgram.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -34,10 +57,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.sql/java/sql/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="92" column="39" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+            <state relative-caret-position="93">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -58,67 +86,32 @@
         <option value="$PROJECT_DIR$/src/main/java/MyFirstProgram.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru.stda.pfd.sandbox/MyFirstProgram.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="23" />
+    <option name="y" value="366" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sandbox" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sandbox" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="sandbox.main" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sandbox" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="sandbox.main" type="616d4139:PackageViewModuleNode" />
-              <item name="ru.stda.pfd.sandbox" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sandbox" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="sandbox.main" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-            <path>
-              <item name="sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sandbox" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="sandbox.main" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="java" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sandbox" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="sandbox.test" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550436028846" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553790292300" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -145,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.sandbox">
+  <component name="RunManager" selected="Application.MyFirstProgram">
     <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stda.pfd.sandbox.java.MyFirstProgram" />
       <module name="sandbox.main" />
@@ -198,10 +191,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyFirstProgram" />
         <item itemvalue="Gradle.sandbox" />
         <item itemvalue="Groovy.build (1)" />
         <item itemvalue="Groovy.build" />
-        <item itemvalue="Application.MyFirstProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -219,11 +212,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="820" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49305555" visible="true" weight="0.26752505" />
-      <window_info id="Structure" order="1" sideWeight="0.5069444" side_tool="true" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48763737" visible="true" weight="0.28183118" />
+      <window_info id="Structure" order="1" sideWeight="0.51236266" side_tool="true" visible="true" weight="0.28183118" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -231,7 +224,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45277777" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -257,14 +250,31 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru.stda.pfd.sandbox/MyFirstProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.sql/java/sql/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="92" column="39" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+        <state relative-caret-position="93">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
